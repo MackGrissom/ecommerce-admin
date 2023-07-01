@@ -1,9 +1,12 @@
-import { Button } from '@/components/ui/button'
-import { UserButton } from "@clerk/nextjs";
+"use client";
+import { Modal } from "@/components/ui/modal";
+
+
+
 const SetupPage = () => {
   return (
-    <div>
-  <UserButton afterSignOutUrl="/"/>
+    <div className="p-4">
+     Root Page
     </div>
   )
 }

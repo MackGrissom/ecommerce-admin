@@ -1,4 +1,4 @@
-A full stack Ecommerce solution with Admin Dashboard CMS. Allows for no-code updating, tracking and maintenance of customers E-commerce store. Fully operational Ecommerce store. 
+In Progress: A full stack Ecommerce solution with Admin Dashboard CMS. Allows for no-code updating, tracking and maintenance of customers E-commerce store. Fully operational Ecommerce store. 
 
 Built with:
 -Next.js 13

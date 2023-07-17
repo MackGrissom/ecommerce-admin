@@ -7,6 +7,7 @@ import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "
 import { Heading } from "@/components/ui/heading";
 import { Input } from "@/components/ui/input";
 import { Separator } from "@/components/ui/separator";
+import { useOrigin } from "@/hooks/use-origin";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { Store } from "@prisma/client"
 import axios, { Axios } from "axios";
@@ -44,6 +45,7 @@ export const SettingsForm: React.FC<SettingsFormProps> = ({
   })
   const router = useRouter();
   const params = useParams();
+  const origin = useOrigin();
 
   const onSubmit = async (data: SettingsFormValues) => {
     try {
